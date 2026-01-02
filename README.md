@@ -10,7 +10,6 @@
 
 ## 📸 Dashboard Preview
 
-*(Upload screenshot web dashboard Anda ke folder assets, lalu ganti link ini nanti)*
 ![Dashboard Screenshot](assets/dashboard-preview.png)
 
 > **Sistem Cerdas Pengelola Kualitas Air & Pakan Otomatis dengan Logika Fuzzy**
@@ -120,6 +119,7 @@ pip install streamlit supabase streamlit-option-menu pandas st-aggrid streamlit-
 
 # Jalankan aplikasi
 streamlit run app.py
+
 
 
 
