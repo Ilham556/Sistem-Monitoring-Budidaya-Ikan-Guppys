@@ -75,7 +75,7 @@ Sistem terdiri dari dua node mikrokontroler dan satu server aplikasi:
 ### 🛠️ 1. Node Aktuator
 ![wiring sistem node sensor](docs/wiring_diagram_node_sensor.PNG)
 
-### 🛠️ 1. Node Aktuator
+### 🛠️ 2. Node Aktuator
 ![wiring sistem node sensor](docs/wiring_diagram_node_aktuator.PNG)
 ### Perangkat Keras (Hardware)
 | Komponen | Fungsi | Pin (Node Master) | Pin (Node Slave) |
@@ -123,6 +123,7 @@ pip install streamlit supabase streamlit-option-menu pandas st-aggrid streamlit-
 
 # Jalankan aplikasi
 streamlit run app.py
+
 
 
 
