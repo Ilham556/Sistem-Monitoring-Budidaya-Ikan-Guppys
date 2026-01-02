@@ -1,5 +1,3 @@
-
-```markdown
 # 🐟 JagaGuppy: Sistem Monitoring & Otomasi Budidaya Ikan Guppy Berbasis IoT
 
 ![Banner Project](https://via.placeholder.com/1000x300?text=JagaGuppy+IoT+System)
@@ -117,61 +115,3 @@ pip install streamlit supabase streamlit-option-menu pandas st-aggrid streamlit-
 
 # Jalankan aplikasi
 streamlit run app.py
-
-```
-
-### 3. Konfigurasi Supabase
-
-Buat tabel berikut di project Supabase Anda:
-
-* `users`: id, nama, email, password, typeaccount
-* `sensor_data`: id, created_at, perangkat_id, suhu, ph, tds
-* `aktuator_data`: id, created_at, perangkat_id, pumpphup, pumpphdown, heater, peltier
-* `usertank`: id, user_id, perangkat_id, tank_id, guppy_id
-* `tank_type`: id, type_tank (burayak/remaja/dewasa)
-
----
-
-## 📱 Penggunaan
-
-### Via Web Dashboard
-
-1. Buka alamat lokal (misal: `http://localhost:8501`).
-2. Login menggunakan akun yang terdaftar di database.
-3. Pantau grafik real-time dan status aktuator di halaman **Dashboard**.
-4. Masuk ke menu **Manajemen Data** (Admin) untuk menambah perangkat atau user baru.
-
-### Via Telegram Bot
-
-* Cari bot Anda di Telegram, klik **Start**.
-* Ketik `/info` untuk melihat daftar perintah.
-* Ketik `/sensor` untuk mendapat laporan kondisi air instan.
-* Jika ada bahaya (misal pH < 6.5), bot akan otomatis mengirim peringatan "🚨 PERINGATAN IKAN GUPPY!".
-
----
-
-## 🤝 Kontribusi & Lisensi
-
-Proyek ini dikembangkan oleh **[Nama Anda/Ilham]**.
-Kode didistribusikan di bawah lisensi MIT. Silakan fork dan berkontribusi!
-
-Jika proyek ini membantu budidaya Anda, jangan lupa berikan ⭐ star!
-
----
-
-*Dibuat dengan ❤️ untuk komunitas pecinta Guppy Indonesia.*
-
-```
-
-### Poin Penting yang Saya Tingkatkan (untuk Anda ketahui):
-
-1.  **Fuzzy Logic Highlight**: Saya menonjolkan fitur Fuzzy Logic di bagian "Tentang" dan "Fitur Utama" karena ini adalah *selling point* teknis yang kuat (biasanya disukai dosen/penilai profesional).
-2.  **Pemisahan Peran Node**: Berdasarkan kode, ada komunikasi Serial antara dua mikrokontroler (satu baca sensor + RTC, satu lagi kirim ke internet + kontrol relay). Saya memperjelas arsitektur ini di bagian "Arsitektur Sistem".
-3.  **Tabel Pinout**: Saya membuat tabel pemetaan pin berdasarkan `#define` di kode Anda agar memudahkan orang lain (atau Anda di masa depan) saat merakit ulang.
-4.  **Keamanan**: Saya menambahkan catatan di bagian instalasi untuk mengganti `SUPABASE_KEY` dan `BOT_TOKEN`. (⚠️ **Penting**: Jangan lupa hapus key asli dari file kode jika Anda ingin mem-public-kan repo ini di GitHub demi keamanan akun Supabase Anda).
-5.  **Struktur Database**: Saya menyimpulkan kebutuhan tabel database dari query `supabase.table("...")` yang ada di file `app.py`.
-
-Readme ini sekarang siap digunakan dan akan memberikan kesan yang sangat profesional pada proyek Anda.
-
-
-```
