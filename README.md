@@ -1,6 +1,6 @@
 # 🐟 JagaGuppy: Sistem Monitoring & Otomasi Budidaya Ikan Guppy Berbasis IoT
 
-![Banner Project]([banner](banner/banner.png))
+![Banner Project](banner/banner.png)
 
 [![Platform](https://img.shields.io/badge/Platform-ESP32-blue?logo=espressif)](https://www.espressif.com/)
 [![Framework](https://img.shields.io/badge/Framework-Arduino-green?logo=arduino)](https://www.arduino.cc/)
