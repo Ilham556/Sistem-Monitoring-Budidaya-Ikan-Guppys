@@ -1,6 +1,6 @@
 # 🐟 JagaGuppy: Sistem Monitoring & Otomasi Budidaya Ikan Guppy Berbasis IoT
 
-![Banner Project](https://via.placeholder.com/1000x300?text=JagaGuppy+IoT+System)
+![Banner Project]([https://via.placeholder.com/1000x300?text=JagaGuppy+IoT+System](https://github.com/Ilham556/Sistem-Monitoring-Budidaya-Ikan-Guppys/blob/main/dashboard/images/logo_jagaguppy_wide.png?raw=true))
 
 [![Platform](https://img.shields.io/badge/Platform-ESP32-blue?logo=espressif)](https://www.espressif.com/)
 [![Framework](https://img.shields.io/badge/Framework-Arduino-green?logo=arduino)](https://www.arduino.cc/)
@@ -115,3 +115,4 @@ pip install streamlit supabase streamlit-option-menu pandas st-aggrid streamlit-
 
 # Jalankan aplikasi
 streamlit run app.py
+
