@@ -62,7 +62,7 @@ Kontrol penuh dalam genggaman melalui perintah bot:
 ---
 
 ## 🏗️ Arsitektur Sistem
-
+![arsitektur sistem](docs/architecture.png)
 Sistem terdiri dari dua node mikrokontroler dan satu server aplikasi:
 
 1.  **Node Sensor (Slave)**: Membaca sensor fisik, menangani RTC, dan menampilkan data di OLED. Mengirim data via Serial ke Node Utama.
@@ -72,7 +72,11 @@ Sistem terdiri dari dua node mikrokontroler dan satu server aplikasi:
 ---
 
 ## 🛠️ Teknologi & Hardware
+### 🛠️ 1. Node Aktuator
+![wiring sistem node sensor](docs/wiring_diagram_node_sensor.png)
 
+### 🛠️ 1. Node Aktuator
+![wiring sistem node sensor](docs/wiring_diagram_node_aktuator.png)
 ### Perangkat Keras (Hardware)
 | Komponen | Fungsi | Pin (Node Master) | Pin (Node Slave) |
 | :--- | :--- | :--- | :--- |
@@ -119,6 +123,7 @@ pip install streamlit supabase streamlit-option-menu pandas st-aggrid streamlit-
 
 # Jalankan aplikasi
 streamlit run app.py
+
 
 
 
