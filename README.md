@@ -8,6 +8,11 @@
 [![Database](https://img.shields.io/badge/Database-Supabase-emerald?logo=supabase)](https://supabase.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+## 📸 Dashboard Preview
+
+*(Upload screenshot web dashboard Anda ke folder assets, lalu ganti link ini nanti)*
+![Dashboard Screenshot](assets/dashboard_preview.png)
+
 > **Sistem Cerdas Pengelola Kualitas Air & Pakan Otomatis dengan Logika Fuzzy**
 >
 > Proyek ini adalah solusi *end-to-end* untuk pembudidaya Guppy yang mengintegrasikan sensor kualitas air presisi, kontrol aktuator otomatis menggunakan Fuzzy Logic, notifikasi real-time via Telegram, dan manajemen data terpusat melalui Dashboard Web.
@@ -115,6 +120,7 @@ pip install streamlit supabase streamlit-option-menu pandas st-aggrid streamlit-
 
 # Jalankan aplikasi
 streamlit run app.py
+
 
 
 
